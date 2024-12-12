@@ -5,6 +5,7 @@ body > .rigth-container {
     position: relative;
     left: 20%;
     padding: 1rem;
+    
 }
 
 .rigth-container > .main-container {
@@ -29,16 +30,18 @@ body > .rigth-container {
     border-bottom: solid 3px #fff;
     padding-bottom: 0.5rem;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 .section-profile {
     margin-top: 0.5rem;
-    padding: 0.2rem;
-    font-size: 1.5rem;
-    color:#fff;
+    padding: 0.2rem 1rem 2rem;
+    font-size: 1.5rem ;
+    color:#f5ffe6;
 }
 .section-profile > p{
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 
@@ -143,7 +146,7 @@ body > .rigth-container {
 }
 
 .card-reference > p > span {
-    font-size:  1rem;
+    font-size:  0.9rem;
     text-align: right;
     font-weight: 600;
     font-family: 'Courier New', Courier, monospace;

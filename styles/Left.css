@@ -1,7 +1,7 @@
 body > .left-container {
     width: 20%;
     height: 100%;
-    background-color: var(--terciary-color);
+    background-color: var(--first-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,8 +88,8 @@ header > .navbar-profile {
 .navbar-profile > ul > li > a {
     color: #fff;
     text-decoration: none;
-    text-shadow: -2px -2px 4px var(--first-color);
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 .navbar-profile > ul > li > a:hover {
@@ -133,7 +133,7 @@ footer > .navbar-social-networks {
 
 .bx {
     font-size: 2rem;
-    color: var(--second-color);
+    color: var(--first-color);
     border-radius: 50%;
     margin: 0.5rem;
 }
