@@ -1,9 +1,9 @@
 body > .rigth-container {
-    width: 70%;
+    width: 80%;
     height: max-content;
     background-color: var(--second-color);
     position: relative;
-    left: 30%;
+    left: 20%;
     padding: 1rem;
 }
 
@@ -41,22 +41,26 @@ body > .rigth-container {
     font-family: 'Courier New', Courier, monospace;
 }
 
+
+
+
+
 .container-cards {
     width: 100%;
     height: max-content;
     display: flex;
-    flex-wrap: row;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .card-proyects {
-    width: 18rem;
-    height: max-content;
+    width: 30rem;
+    height: auto;
     border-radius: 10px;
-    background-color: var(--second-color);
+    background-color: var(--first-color);
     margin: 1rem;
     display: flex;
+    
 }
 
 .card-proyects > .container-img-card {
@@ -76,6 +80,7 @@ body > .rigth-container {
     height: 100%;
     border-radius: 0 7px 7px 0;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
 }
@@ -95,14 +100,20 @@ body > .rigth-container {
     width: 5rem;
     padding: 0.5rem;
     color: #fff;
-    background-color: var(--first-color);
+    background-color: var(--second-color);
     border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .container-description-card > a:hover {
     background-color: var(--second-color);
     box-shadow: 0 0 10px #fff;
 }
+
+
+
+
+
 
 .card-references {
     width: 100%;
@@ -115,26 +126,33 @@ body > .rigth-container {
 }
 
 .card-references > .card-reference {
-    width: 12rem;
-    height: 11rem;
+    width: 17rem;
+    height: 10rem;
     background-color: var(--terciary-color);
     font-family: 'Courier New', Courier, monospace;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: flex-start;
-    padding: 1rem;
+    padding: 0.5rem;
     color: var(--first-color);
     line-height: 1.5rem;
     font-size: 1rem;
+    
 }
 
 .card-reference > p > span {
-    font-size:  0.8rem;
+    font-size:  1rem;
     text-align: right;
     font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
     color: var(--second-color);
 }
+
+
+
+
 
 .container-experience {
     width: 100%;
@@ -142,14 +160,15 @@ body > .rigth-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-content: center;
     gap: 1rem;
     margin-top: 1rem;
 
 }
 
 .card-experience {
-    width: 12rem;
-    height: 12rem;
+    width: 15m;
+    height: 15em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -158,8 +177,8 @@ body > .rigth-container {
 }
 
 .card-experience > img {
-    width: 8rem;
-    height: 8rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
 }
 
@@ -185,11 +204,17 @@ body > .rigth-container {
 
 .card-reference > p {
     color:var(--first-color);
+    font-family: 'Courier New', Courier, monospace;
 }
 
-@media (max-width:557px){
+
+@media(max-width: 950px) {
     body > .rigth-container {
-        left: 0;
         width: 100%;
+        height: max-content;
+        background-color: var(--second-color);
+        position: relative;
+        left: 0%;
+        padding: 1rem;
     }
 }

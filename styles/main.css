@@ -10,9 +10,3 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 98vw;
-    height: auto;
-    display: flex;
-}
-
